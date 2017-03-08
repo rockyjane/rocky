@@ -12,8 +12,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<title>Rocky</title>
 	<link rel="stylesheet" href="css/jane.min.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
 </head>
 <body>
 	<div class="Rocky">
@@ -633,7 +631,8 @@
 	</div>
 </body>
 </html>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jane.min.js"></script>
 <script type="text/javascript">window.onload=function(){var Graphic=document.getElementById("Graphic");var Gra_u=document.getElementsByClassName("grid")[0];var Web=document.getElementById("Web");var Web_u=document.getElementsByClassName("grid")[1];var Photography=document.getElementById("Photography");var Pho_u=document.getElementsByClassName("grid")[2];function RUN(){new AnimOnScroll( lightgallery, {minDuration : 0.4,maxDuration : 0.7,viewportFactor : 0.2});lightGallery(document.getElementById('lightgallery'));}Graphic.onclick = Gra;Gra();function Gra(){Web_u.id = "";Pho_u.id = "";Gra_u.id = "lightgallery";Web.className = "";Web_u.style.display = "none";Photography.className = "";Pho_u.style.display = "none";Graphic.className = "nac";Gra_u.style.display = "block";RUN()};Web.onclick = function(){Gra_u.id = "";Pho_u.id = "";Web_u.id = "lightgallery";Graphic.className = "";Gra_u.style.display = "none";Photography.className = "";Pho_u.style.display = "none";Web.className = "nac";Web_u.style.display = "block";RUN()};Photography.onclick = function(){Gra_u.id = "";Web_u.id = "";Pho_u.id = "lightgallery";Web.className = "";Web_u.style.display = "none";Graphic.className = "";Gra_u.style.display = "none";Photography.className = "nac";Pho_u.style.display = "block";RUN()}};
 </script>
