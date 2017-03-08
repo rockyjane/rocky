@@ -12,7 +12,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<title>Rocky</title>
 	<link rel="stylesheet" href="css/jane.min.css" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 </head>
 <body>
 	<div class="Rocky">
@@ -78,6 +77,7 @@
 	</div>
 </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="js/jane.min.js"></script>
 <script type="text/javascript">window.onload=function(){var BAN = document.getElementsByClassName("banner")[0];var BAN_N = Math.ceil(Math.random()*8);$(window).resize(function(){if($(window).innerWidth()>=768){BAN.style = "";BAN.style.backgroundImage ="url(images/banner.png)";}else{BAN.style = "";}});if($(window).innerWidth()<=767){BAN.style.backgroundImage = "url(images/banner_" + BAN_N + ".jpg)"};var skip=document.getElementsByTagName("h1")[0];var skipp=document.querySelector("h1>span");skipp.onclick = function(){$("h1").stop(true,true);skip.style.display="none";};$("h1").animate({display:"block"},3000,function(){this.style.display="none";$("html,body").animate({scrollTop:0},500);});};
 </script>
