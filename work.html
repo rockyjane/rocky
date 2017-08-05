@@ -4,21 +4,21 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link href="images/R.ico" rel="shortcut icon" type="image/x-icon">
+
 	<meta http-equiv="Widow-target" content="_top">
 	<meta name="keywords" content="作品集,Design,Portfolio"/>
 	<meta name="description" content="這是有關於『Rocky-洛基』作品集事宜的網站" />
 	<meta name="robots" content="index,nofollow">
 	<meta name="author" content="洛基,Rocky" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<title>Rocky</title>
-	<link rel="stylesheet" href="css/jane.min.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
+	<link rel="stylesheet" href="css/jane.css" type="text/css">
 </head>
 <body>
 	<div class="Rocky">
 		<header>
-			<h5></h5>
+			<a href="home.html"><h5></h5></a>
 			<div class="sun">
 				<span class="suns"></span>
 			</div>
@@ -321,17 +321,47 @@
                     </a>
                 </li>
 			</ul>
-			<ul class="grid effect-5" id="">
+			<ul class="web">
 				<li data-responsive="img/rwd/101-375.jpg 375"
                     data-src="img/rwd/101-1600.jpg">
                     <a href="http://rockyjane-camera.tk/" target="_blank">
                     	<img src="img/101.jpg">
                     </a>
                 </li>
-				<li data-responsive="img/rwd/102-375.jpg 375"
+                <li data-responsive="img/rwd/102-375.jpg 375"
                     data-src="img/rwd/102-1600.jpg">
                     <a href="http://rockyjane-translation.tk/" target="_blank">
-                    	<img src="img/102.jpg">
+                        <img src="img/102.jpg">
+                    </a>
+                </li>
+                <li data-responsive="img/rwd/103-375.jpg 375"
+                    data-src="img/rwd/103-1600.jpg">
+                    <a href="http://rocky.dayfor.net/R_Project_Hui_Feng/" target="_blank">
+                        <img src="img/103.jpg">
+                    </a>
+                </li>
+                <li data-responsive="img/rwd/104-375.jpg 375"
+                    data-src="img/rwd/104-1600.jpg">
+                    <a href="http://rocky.dayfor.net/R_Project_Ariel/" target="_blank">
+                        <img src="img/104.jpg">
+                    </a>
+                </li>
+                <li data-responsive="img/rwd/105-375.jpg 375"
+                    data-src="img/rwd/105-1600.jpg">
+                    <a href="http://rocky.dayfor.net/R_Project_Food_art_hand/" target="_blank">
+                        <img src="img/105.jpg">
+                    </a>
+                </li>
+                <li data-responsive="img/rwd/106-375.jpg 375"
+                    data-src="img/rwd/106-1600.jpg">
+                    <a href="http://rocky.dayfor.net/R_Project_Great_Pawnshop/" target="_blank">
+                        <img src="img/106.jpg">
+                    </a>
+                </li>
+				<li data-responsive="img/rwd/107-375.jpg 375"
+                    data-src="img/rwd/107-1600.jpg">
+                    <a href="http://rocky.dayfor.net/R_Project_Jany_Uan/" target="_blank">
+                    	<img src="img/107.jpg">
                     </a>
                 </li>
 			</ul>
@@ -612,7 +642,7 @@
 				<a class="fa fa-envelope" aria-hidden="true" href="mailto:wooood80@gmail.com" alt="個人資訊管理系統軟體-outlook" title="個人資訊管理系統軟體-outlook"></a>
 				<a class="fa fa-google-plus-square" aria-hidden="true" href="https://mail.google.com/" target="_blank" alt="谷哥信箱-gmail" title="谷哥信箱-gmail"></a>
 				<a class="fa fa-pinterest-square" aria-hidden="true" href="https://www.pinterest.com/wooood80/" target="_blank" alt="釘選興趣-pinterest" title="釘選興趣-pinterest"></a>
-				<a class="fa fa-file-pdf-o" aria-hidden="true" href="https://mega.nz/#!358VjJjQ!BxGavEeQgRh0meA9lFdKTyBLurQIqWOMDxjVDqicPXM" target="_blank" alt="可攜式文件-PDF" title="可攜式文件-PDF"></a>
+				<a class="fa fa-file-pdf-o" aria-hidden="true" href="https://mega.nz/#!Pg8gwIaR!3TMoM46S4UV-2kJ7C2A4InOo31-qmch3-buS4QK9r44" target="_blank" alt="可攜式文件-PDF" title="可攜式文件-PDF"></a>
 			</p>
 		</address>
 		<footer>
@@ -633,7 +663,75 @@
 	</div>
 </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="js/velocity.min.js"></script>
+<!--===1.瀑布流外掛↓↓↓===-->
+<script src="js/masonry.pkgd.min.js"></script>
+<!--=====2.瀑布流外掛-擴充軟件(檢查所有圖片是否會被之後JS所使用而待命)↓↓↓===-->
+<script src="js/imagesloaded.js"></script>
+<!--=====2.瀑布流外掛-擴充軟件(執行瀑布流動畫)↓↓↓===-->
+<script src="js/AnimOnScroll.js"></script>
+<!--===1.燈箱外掛↓↓↓===-->
+<script src="js/lightgallery.min.js" type="text/javascript"></script>
+<!--===1.自己寫加上網路查找的↓↓↓===-->
+<script src="js/jane.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
 
-<script src="js/jane.min.js"></script>
-<script type="text/javascript">window.onload=function(){var Graphic=document.getElementById("Graphic");var Gra_u=document.getElementsByClassName("grid")[0];var Web=document.getElementById("Web");var Web_u=document.getElementsByClassName("grid")[1];var Photography=document.getElementById("Photography");var Pho_u=document.getElementsByClassName("grid")[2];function RUN(){new AnimOnScroll( lightgallery, {minDuration : 0.4,maxDuration : 0.7,viewportFactor : 0.2});lightGallery(document.getElementById('lightgallery'));}Graphic.onclick = Gra;Gra();function Gra(){Web_u.id = "";Pho_u.id = "";Gra_u.id = "lightgallery";Web.className = "";Web_u.style.display = "none";Photography.className = "";Pho_u.style.display = "none";Graphic.className = "nac";Gra_u.style.display = "block";RUN()};Web.onclick = function(){Gra_u.id = "";Pho_u.id = "";Web_u.id = "lightgallery";Graphic.className = "";Gra_u.style.display = "none";Photography.className = "";Pho_u.style.display = "none";Web.className = "nac";Web_u.style.display = "block";RUN()};Photography.onclick = function(){Gra_u.id = "";Web_u.id = "";Pho_u.id = "lightgallery";Web.className = "";Web_u.style.display = "none";Graphic.className = "";Gra_u.style.display = "none";Photography.className = "nac";Pho_u.style.display = "block";RUN()}};
+		//----單元切換
+		var Graphic = document.getElementById("Graphic");
+        var Gra_u = document.getElementsByTagName("ul")[0];
+        //----
+        var Web = document.getElementById("Web");
+		var Web_u = document.getElementsByTagName("ul")[1];
+		//----
+		var Photography = document.getElementById("Photography");
+		var Pho_u = document.getElementsByTagName("ul")[2];
+
+		function RUN(){
+			new AnimOnScroll( lightgallery, {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			} );
+        	lightGallery(document.getElementById('lightgallery'));
+		}
+		
+		Graphic.onclick = Gra;
+		Gra();
+		function Gra(){
+			Pho_u.id = "";
+			Gra_u.id = "lightgallery";
+			Web.className = "";
+			Photography.className = "";
+			Pho_u.style.display = "none";
+			Graphic.className = "nac";
+			Gra_u.style.display = "block";
+			RUN()
+		};
+
+		Web.onclick = function(){
+			Gra_u.id = "";
+			Pho_u.id = "";
+			Graphic.className = "";
+			Gra_u.style.display = "none";
+			Photography.className = "";
+			Pho_u.style.display = "none";
+			Web.className = "nac";
+            Web_u.style.display = "flex";
+		}
+
+		Photography.onclick = function(){
+			Gra_u.id = "";
+			Pho_u.id = "lightgallery";
+			Web.className = "";
+            Web_u.style.display = "none";
+			Graphic.className = "";
+			Gra_u.style.display = "none";
+			Photography.className = "nac";
+			Pho_u.style.display = "block";
+			RUN()
+		}
+
+	};
 </script>
