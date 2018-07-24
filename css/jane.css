@@ -460,7 +460,7 @@
 
 			/* [新扣-作品頁]3.瀑布流 ul li a start */
 			
-			.web{
+			/* 20180722---.web{
 				display: flex;
 			    justify-content: space-around;
 			    width: 80%;
@@ -469,9 +469,23 @@
 			    margin: 40px auto;
 			    padding: 0px;
 			}
-			.web li{margin: 20px;}
+			.web li{margin: 20px;} */
 
 			/* [新扣-作品頁]3.瀑布流 ul li a end */
+
+			/* [新扣-作品頁]3.遊戲連結 start */
+			.game_link{display: none;}
+			.game_link a{
+				color: #fff;
+				padding-bottom: 5px;
+				border-bottom: 3px solid #fbb;
+				transition:all .5s linear;
+			}
+			.game_link a:hover{
+				color:#fbb;
+				border-color:#fff;
+			}
+			/* [新扣-作品頁]3.遊戲連結 end */
 
 		/* [分頁-作品頁]2.文章 article end */
 		
@@ -481,7 +495,8 @@
 				overflow:hidden;
 				padding-top: 50px;
 			}
-			.info h3{color:#fff;}
+			.info .info h3{color:#fff;}
+			.info h2{padding-bottom: 100px;}
 			h2{
 				color: #fff;
 			    font-size: 18px;
@@ -498,7 +513,7 @@
 			    background-size: 50%;
 			    background-position: center;
 			    width: 600px;
-			    height: 600px;
+			    height: 500px;
 			    margin: -70px auto 0 auto;
 			    animation: R_gif 30s ease-in-out infinite;
 			}
@@ -506,7 +521,7 @@
 			    position: static;
 			    list-style-type: none;
 			    width: 470px;
-			    height: 360px;
+			    /* height: 360px; */
 			    right: 0;
 			    top: 0px;
 			    bottom: 250px;
@@ -525,7 +540,7 @@
 			    border-top: 1px solid;
 			    margin-bottom: 10px;
 			}
-			h2 ul li:last-child{width: 360px;}
+			h2 ul li:nth-child(2){width: 360px;}
 
 		/* [分頁-自我介紹頁]2.資訊 div>h3+h2>ul>li>br+p end */
 
