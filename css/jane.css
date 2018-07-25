@@ -22,6 +22,7 @@
 			font-family: 'Russo One', '微軟正黑體',sans-serif;
 			-webkit-text-size-adjust:none;
 			background-color: #85b3da;
+			touch-action:manipulation;
 		}
 		body::-webkit-scrollbar,
 		.scrollbar_none::-webkit-scrollbar{width: 0;}
