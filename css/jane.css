@@ -496,15 +496,14 @@
 				padding-top: 50px;
 			}
 			.info .info h3{color:#fff;}
-			.info h2{padding-bottom: 100px;}
 			h2{
 				color: #fff;
 			    font-size: 18px;
 			    position: relative;
 			    left: 0;
 			    top: 0;
-			    padding-bottom: 250px;
 			}
+			.info h2{padding-bottom: 500px;}
 			h2:before{
 				content: "";
 				display: block;
@@ -513,7 +512,7 @@
 			    background-size: 50%;
 			    background-position: center;
 			    width: 600px;
-			    height: 500px;
+			    height: 600px;
 			    margin: -70px auto 0 auto;
 			    animation: R_gif 30s ease-in-out infinite;
 			}
@@ -540,7 +539,7 @@
 			    border-top: 1px solid;
 			    margin-bottom: 10px;
 			}
-			h2 ul li:nth-child(2){width: 360px;}
+			/* h2 ul li:nth-child(2){width: 360px;} */
 
 		/* [分頁-自我介紹頁]2.資訊 div>h3+h2>ul>li>br+p end */
 
@@ -1031,6 +1030,12 @@
 	/* -----1.平板區----- start */
 
 		@media screen and (max-width:1024px){
+			
+				/* @media-1280-[分頁-自我介紹頁]3.資訊 start */
+
+				.info h2{padding-bottom: 100px;}
+
+				/* @media-1280-[分頁-自我介紹頁]3.資訊 end */
 
 				/* @media-1024-3.LOGO h5 start */
 
